@@ -5,4 +5,10 @@ import React from "react";
 //}
 //export default func1;
 
-export default () => <h1>Nosso componente</h1>
+//export default () => <h1>Nosso componente</h1>
+
+export default (props) =>
+<div>
+    <h1>{props.valor}</h1>
+    <h2>{props.soma}</h2>
+</div>
