@@ -7,7 +7,8 @@ import ReactDOM from "react-dom";
 // import FamiliaGomes from "./Componentes/FamiliaGomes";
 // import Familia from "./Componentes/Familia";
 // import Nome from "./Componentes/Nome";
-import ComponenteComFuncao from "./Componentes/ComponenteComFuncao";
+//import ComponenteComFuncao from "./Componentes/ComponenteComFuncao";
+import Pai from "./Componentes/Pai";
 
 const element = document.getElementById('root')
 
@@ -29,7 +30,8 @@ ReactDOM.render(
             <Nome nome="Paulo" />
         </Familia> */}
 
-        <ComponenteComFuncao/>
+        {/* <ComponenteComFuncao/> */}
+        <Pai/>
     </div>
     ,element
 )
